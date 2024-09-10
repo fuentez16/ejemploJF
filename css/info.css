@@ -1,0 +1,54 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: 350px 650px 50px;
+    grid-template-areas: 
+    'enc enc enc enc'
+    'menu con con con'
+    'pie pie pie pie'
+    ;
+}
+header{
+    background-color: rgb(2, 113, 115);
+    grid-area: enc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main{
+    background-color: rgb(222, 136, 74);
+    grid-area: menu;
+}
+nav{
+    background-color: antiquewhite;
+    grid-area: con;
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    background-color: rgb(234, 196, 149);
+    grid-area: pie;
+    text-align: center;
+}
+.img1{
+    display: flex;
+    width: 2150px;
+    height: 350px;
+    
+}
+
+#img{
+    width: 450px;
+    height: 650px;
+    display: grid;
+}
+iframe{
+    width: 250px;
+    height: 350px;
+    text-align: right;
+    
+}
+#img2{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}

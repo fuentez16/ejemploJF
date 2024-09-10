@@ -1,0 +1,47 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: 350px 650px 50px;
+    grid-template-areas: 
+    'enc enc enc enc'
+    'menu con con con'
+    'pie pie pie pie'
+    ;
+}
+header{
+    background-color: rgb(2, 113, 115);
+    grid-area: enc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main{
+    background-color: rgb(222, 136, 74);
+    grid-area: menu;
+}
+nav{
+    background-color: antiquewhite;
+    grid-area: con;
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    background-color: rgb(234, 196, 149);
+    grid-area: pie;
+    text-align: center;
+}
+.imagen{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+img{
+    display: flex;
+    width: 2000px;
+    height: 350px;
+    
+}
+#div1{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}

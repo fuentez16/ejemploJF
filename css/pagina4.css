@@ -1,0 +1,50 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 725px 725px;
+    grid-template-rows: 200px 80px 450px 50px;
+    grid-template-areas: 
+    'enc enc'
+    'ban ban'
+    'con ni'
+    'pie pie'
+    ;
+}
+.enc{
+    background-color: beige;
+    grid-area: enc;
+    width: 350px;
+    height: 150px;
+}
+.ban{
+    background-color:rgb(93, 104, 87);
+    grid-area: ban;
+}
+.con{
+    background-color:rgba(29, 103, 128, 0.753);
+    grid-area: con;
+}
+.ni{
+    background-color:rgb(182, 149, 107);
+    grid-area: ni;
+}
+.pie{
+    background-color: bisque;
+    grid-area: pie;
+}
+img{
+    width: 1450px;
+    height: 200px;
+
+}
+.enlaces{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.img2{
+    width: 400px;
+    height: 450px;
+    text-align: center;
+}

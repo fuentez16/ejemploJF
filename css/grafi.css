@@ -1,0 +1,42 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 450px 450px 450px 450px;
+    grid-template-rows: 350px 650px 50px;
+    grid-template-areas: 
+    'enc enc enc enc'
+    'con info vid micro'
+    'pie pie pie pie'
+    ;
+}
+.enc{
+  background-color: bisque;
+  grid-area: enc;
+}
+.con{
+   background-color: burlywood;
+   grid-area: con;
+}
+.info{
+   background-color: cornflowerblue;
+   grid-area: info;
+}
+.vid{
+   background-color: darkgray;
+   grid-area: vid;
+}
+.micro{
+   background-color:blue;               
+   grid-area: micro;
+}
+footer{
+    background-color: darkgrey;
+    grid-area: pie;
+}
+.img1{
+   width: 2000px;
+   height: 350px;
+}
+.img2{
+   width: 450px;
+   height: 650px;
+}
